@@ -1503,9 +1503,12 @@ input:last-of-type
 }
 .footer_social .menu_social_item:last-child
 {
-	margin-right: 0px;
-{
+    margin-right: 0px;
+}
+
+/* === LOGO CONSTRUCTORA CALED === */
 .logo img {
-    max-height: 25px;
+    max-height: 100px;
     width: auto;
+    display: block;
 }
