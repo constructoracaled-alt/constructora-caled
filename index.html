@@ -2,63 +2,117 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Constructora Caled</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    header img {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #004080;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background-color: #e6f0ff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    /* WhatsApp flotante */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50px;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    .whatsapp-button img {
+      width: 25px;
+      margin-right: 10px;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <nav>
-      <h1>Constructora Caled</h1>
-      <span class="menu-toggle">&#9776;</span>
-      <ul>
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
+    <img src="logo.png" alt="Constructora Caled">
+    <h1>Constructora Caled</h1>
   </header>
 
-  <section class="hero" id="home">
+  <main>
     <h2>Construyendo sueños con calidad y confianza</h2>
     <p>En Constructora Caled nos especializamos en proyectos de construcción, diseño y desarrollo de edificaciones de alto estándar.</p>
-    <a href="#services">Nuestros Servicios</a>
-  </section>
 
-  <section class="services" id="services">
-    <h2>Servicios</h2>
-    <div class="service-cards">
-      <div class="card">
-        <h3>Construcción</h3>
-        <p>Realizamos obras de edificación desde cero, asegurando calidad y cumplimiento de plazos.</p>
-      </div>
-      <div class="card">
-        <h3>Diseño y Planificación</h3>
-        <p>Elaboramos planos arquitectónicos y estructurales ajustados a tus necesidades.</p>
-      </div>
-      <div class="card">
-        <h3>Topografía</h3>
-        <p>Servicios de levantamiento topográfico con tecnología avanzada para cada proyecto.</p>
-      </div>
-      <div class="card">
-        <h3>BIM</h3>
-        <p>Modelado y coordinación BIM para optimizar tiempos, costos y calidad en la obra.</p>
-      </div>
-    </div>
-  </section>
+    <h2>Nuestros Servicios</h2>
+    <ul>
+      <li>Construcción: Obras de edificación desde cero con calidad y cumplimiento de plazos.</li>
+      <li>Diseño y Planificación: Planos arquitectónicos y estructurales ajustados a tus necesidades.</li>
+      <li>Topografía: Levantamiento topográfico con tecnología avanzada.</li>
+      <li>BIM: Modelado y coordinación BIM para optimizar tiempos, costos y calidad.</li>
+    </ul>
+  </main>
 
-  <footer id="contact">
-    <p>&copy; 2026 Constructora Caled. Todos los derechos reservados.</p>
-    <p>Contacto: info@constructora-caled.com | +51 900 000 000</p>
+  <!-- Botón de WhatsApp flotante -->
+  <a href="https://wa.me/51979688174" target="_blank" class="whatsapp-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    Contáctanos
+  </a>
+
+  <footer>
+    © 2026 Constructora Caled. Todos los derechos reservados.<br>
+    Contacto: info@constructora-caled.com | +51 979 688 174
   </footer>
 
-  <script>
-    // Menú responsivo
-    const toggle = document.querySelector('.menu-toggle');
-    const menu = document.querySelector('nav ul');
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('show');
-    });
-  </script>
 </body>
 </html>
+
