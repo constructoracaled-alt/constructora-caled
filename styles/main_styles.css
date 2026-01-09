@@ -1504,4 +1504,8 @@ input:last-of-type
 .footer_social .menu_social_item:last-child
 {
 	margin-right: 0px;
+{
+.logo img {
+    max-height: 25px;
+    width: auto;
 }
