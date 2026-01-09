@@ -1508,7 +1508,7 @@ input:last-of-type
 
 /* === LOGO CONSTRUCTORA CALED === */
 .logo img {
-    max-height: 100px;
+    max-height: 75px;
     width: auto;
     display: block;
 }
