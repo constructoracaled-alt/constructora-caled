@@ -1027,3 +1027,7 @@ section
 {
 	margin-right: 0px;
 }
+.logo img {
+    height: 100px;
+    width: auto;
+}
