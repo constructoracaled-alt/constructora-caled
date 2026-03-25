@@ -1512,3 +1512,7 @@ input:last-of-type
     width: auto;
     display: block;
 }
+/* Justificar texto SOLO en servicios */
+.service_item p {
+    text-align: justify;
+}
